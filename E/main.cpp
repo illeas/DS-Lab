@@ -1,4 +1,4 @@
-#include <iostream>
+#include <bits/stdc++.h>
 
 using namespace std;
 
@@ -6,10 +6,14 @@ int main()
 {
     long a, b;
 
-    while(cin >> a >> b){
-        if((a>b)){
+    while(cin >> a >> b)
+    {
+        if((a>b))
+        {
             cout << a-b;
-        }else{
+        }
+        else
+        {
             cout << b-a;
         }
         cout << endl;
